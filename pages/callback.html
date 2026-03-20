@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>登录中 - 客户录入助手</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <style>
         body {
             display: flex;
@@ -83,7 +83,7 @@
         </div>
     </div>
 
-    <script src="js/auth.js"></script>
+    <script src="../js/auth.js"></script>
     <script>
         // App secret - in production, this should be fetched from a secure backend
         window.feishuAppSecret = 'o08J7194FRXuGPffPICd6cHb6gyKWjBY';
@@ -98,7 +98,7 @@
                 
                 // Small delay for visual feedback before redirect
                 setTimeout(() => {
-                    window.location.href = 'index.html';
+                    window.location.href = '../index.html';
                 }, 500);
             } else {
                 document.getElementById('callbackIcon').textContent = '❌';

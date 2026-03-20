@@ -29,7 +29,7 @@ function createNavBar(title, showBack = false, showLogout = true) {
 function handleLogout() {
     if (confirm('确定要退出登录吗？')) {
         Auth.clearAuth();
-        window.location.href = 'login.html';
+        window.location.href = 'pages/login.html';
     }
 }
 

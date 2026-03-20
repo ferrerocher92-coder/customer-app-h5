@@ -10,7 +10,7 @@ const Auth = {
     APP_ID: 'cli_a9365221543a5ccc',
     // Note: In production, redirect_uri should be your actual H5 app URL
     // For local development, use your deployed URL
-    REDIRECT_URI: window.location.origin + '/callback.html',
+    REDIRECT_URI: window.location.origin + '/customer-app-h5/callback.html',
     AUTH_URL: 'https://open.feishu.cn/open-apis/authen/v1/authorize',
     TOKEN_URL: 'https://open.feishu.cn/open-apis/authen/v1/oidc/access_token',
     USER_INFO_URL: 'https://open.feishu.cn/open-apis/authen/v1/user_info',

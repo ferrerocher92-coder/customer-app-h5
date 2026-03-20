@@ -9,7 +9,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Check authentication first
     if (!Auth.isAuthenticated()) {
-        window.location.href = 'login.html';
+        window.location.href = 'pages/login.html';
         return;
     }
 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         logoutBtn.style.display = 'block';
         logoutBtn.addEventListener('click', () => {
             Auth.clearAuth();
-            window.location.href = 'login.html';
+            window.location.href = 'pages/login.html';
         });
     }
 
